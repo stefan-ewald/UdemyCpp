@@ -6,9 +6,9 @@ using std::cin, std::cout, std::endl;
 int main()
 {
     // Aufgabe 1
-    const int length = 100;
-    double *d = new double[length];
-    for (int i=0; i<length; i++)
+    constexpr int LENGTH = 100;
+    double *d = new double[LENGTH];
+    for (int i=0; i<LENGTH; i++)
     {
         d[i] = i;
     }
@@ -18,10 +18,10 @@ int main()
     d = nullptr;
 
     // Aufgabe 2
-    const int size = 3;
-    const int value = 5;
-    int *array = array_constructor(value, size);
-    for (int i=0; i<size; i++)
+    constexpr int SIZE = 3;
+    constexpr int VALUE = 5;
+    int *array = array_constructor(VALUE, SIZE);
+    for (int i=0; i<SIZE; i++)
     {
         cout << array[i] << endl;
     }
