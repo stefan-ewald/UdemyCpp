@@ -4,6 +4,7 @@
 !*.*
 !*.txt
 TODO.txt
+.DS_Store
 # Unignore all dirs
 !*/
 *.pdf
