@@ -11,7 +11,7 @@ TODO.txt
 !Makefile
 !LICENSE
 c_cpp_properties.json
-launch.json
+#launch.json
 settings.json
 
 test*

@@ -1,0 +1,5 @@
+{
+    "compilerC": "clang",
+    "compilerCpp": "clang++",
+    "make": "make"
+}
