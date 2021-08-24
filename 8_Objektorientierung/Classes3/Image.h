@@ -11,7 +11,7 @@ class Image
     Image(const unsigned int &width, const unsigned int &height);
 
     // Destruktor
-    ~Image();
+    ~Image() = default;
 
     void save_image(const char *file_name) const;
 

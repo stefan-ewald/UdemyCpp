@@ -2,4 +2,7 @@
     "compilerC": "clang",
     "compilerCpp": "clang++",
     "make": "make"
+    "clang-tidy.compilerArgs": [
+        "-ID:/_Apps/msys64/mingw64/include/c++/10.3.0"
+    ]
 }
